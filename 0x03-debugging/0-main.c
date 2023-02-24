@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main - Test Function
- *
- * Return: Alway 0
+ * main - Test Function for positive or negative
+ * Return: 0
  */
 
 int main(void)
 {
-	int x;
+	int i;
 
-	x = 0;
+	i = 0;
 	positive_or_negative(i);
 	return (0);
 }
