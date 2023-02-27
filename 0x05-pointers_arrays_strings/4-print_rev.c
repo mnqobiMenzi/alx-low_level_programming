@@ -13,7 +13,7 @@ void print_rev(char *s)
 	while (*s != '\0')
 	{
 		x++;
-		y++;
+		s++;
 	}
 	s--;
 	for (y = x; y > 0; y--)
